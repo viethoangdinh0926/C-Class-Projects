@@ -1,0 +1,113 @@
+This program is a single card game in which a player will play aganist computer.
+
+The following game's rules will be applied:
+	a/ A card deck of 52 cards will be shuffled.
+	b/ Each player will be dealt a 5-card hand at game starting.
+	c/ The player will take first turn to draw a card from the card deck. The player can decide to not take a card either. Then it will be computer's turn. Computer can also skip its turn.
+	d/ Each player in game have maximum 3 times to draw a card from the card deck.
+	e/ After drawing a card from the card deck, players have to drop one card. The dropped card can be either a card from the original 5-card hand or the new card itself.
+	e/ When a player has used all his chances to draw a new new card from the card deck, if the other player still has not use all three times of drawing, he/she can either use all his/her available chances to draw a new card or decide to stop the game anytime.
+	f/ When the game ends, player's 5-card hand will be compared with computer's 5-card hand. Then the program will present the better 5-card hand.
+
+
+
+Card suits map to integers:
+	Spade - 1
+	Heart - 2
+	Diamond -3
+	Club - 4
+
+
+Card faces map to integers:
+	Ace - 1
+	2 - 2
+	3 - 3
+	4 - 4
+	5 - 5
+	6 - 6
+	7 - 7
+	8 - 8
+	9 - 9
+	10 - 10
+	Jack - 11
+	Queen - 12
+	King - 13
+
+Poker hands from highest to lowest
+
+
+:
+	0. Royal flus
+		A straight flush including ace, king, queen, jack, and ten all in the same suit
+		Heart-Ace Heart-King Heart-Queen Heart-Jack Heart-10
+
+	1. Straight flush 
+		
+		Five cards in a sequence, all in the same suit. 
+		
+		Spade-8 Spade-7 Spade-6 Spade-5 Spade-4 
+
+	
+
+	2. Four of a kind 
+		
+		All four cards of the same rank. 
+		
+		Heart-Jack Spade-Jack Diamon-Jack Club-Jack Heart-7
+
+	
+
+	3. Full house 
+		
+		Three of a kind with a pair. 
+		
+		Spade-5 Heart-5 Club-5 Spade-Queen Club-Queen
+
+
+
+	4. Flush 
+		
+		Any five cards of the same suit, but not in a sequence. 
+		
+		4 J 8 2 9
+
+	
+
+	5. Straight 
+		
+		Five cards in a sequence, but not of the same suit. 
+		
+		9 8 7 6 5
+
+	
+
+	6. Three of a kind 
+		
+		Three cards of the same rank. 
+		
+		7 7 7 K 3
+
+	
+
+	7. Two pair 
+		
+		Two different pairs. 
+		
+		4 4 3 3 Q
+
+	
+
+	8. Pair 
+		
+		Two cards of the same rank. 
+		
+		A A 8 4 7
+
+	
+
+	9. High Card 
+		
+		When you haven't made any of the hands above, the highest card plays. 
+				In the example below, the jack plays as the highest card. 
+		
+		3 Jack 8 4 2

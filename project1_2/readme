@@ -1,0 +1,5 @@
+Navigate to the folder which containts makefile.
+Use 'make' command to build the program
+result: an executable file named "test" which can be run on a Linux system.
+ File data.txt is data sample to test the program.
+Usage: cat data.txt|test 3 > output.txt
